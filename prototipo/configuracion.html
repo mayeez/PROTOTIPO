@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="confi.css">
+
+   <title>Configuración</title>
+</head>
+
+<body>
+
+   <div id="cuadr" class="cuadro">
+      <h2>CONFIGURACIÓN</h2>
+
+      <div class="botones">
+         <div class="btn1">MUSICA</div>
+         <div class="boton-musica">
+            <input type="checkbox" id="toggle" class="offscreen" />
+            <label for="toggle" class="switch"></label>
+            <span id="message" class="message">OFF</span>
+
+         </div>
+         <div class="btn2">SONIDO</div>
+         <div class="boton-sonido">
+            <input type="checkbox" id="swSonido" class="switchc" />
+            <label for="swSonido" class="switch-label"></label>
+            <span id="swSonidoMensaje" class="mensaje">ON</span>
+         </div>
+         <p class="btn3">LENGUAJE</p>
+      </div>
+      <div class="tuerca">
+         <img id="tuerc" src="./img/tuerca.png" alt="tuuerca">
+      </div>
+      <div class="music">
+         <img id="musica" src="./img/music.png" alt="musica">
+      </div>
+      <div class="sound">
+         <img id="sonido" src="./img/sonido.png" alt="soound">
+      </div>
+      <div class="flag">
+         <img id="bandera" src="./img/banderaes.png" alt="flag">
+
+      </div>
+      <div id="cerrarBtn">
+         <img id="close" src="./img/cerrar.png" alt="cerrar">
+      </div>
+      <audio id="myAudio" src="./sonido.mart.mp3" type="audio/mp3">
+         Tu navegador no soporta el elemento de audio.
+      </audio>
+
+   </div>
+
+
+
+   <script src="confi.js"></script>
+   
+
+</body>
+
+</html>
