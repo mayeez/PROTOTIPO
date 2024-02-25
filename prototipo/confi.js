@@ -1,4 +1,4 @@
-const toggleSwitch = document.getElementById('toggle');
+const toggleSwitch = document.getElementById('swMusica');
 const message = document.getElementById('message');
 
 const swSonido = document.getElementById("swSonido");
@@ -24,7 +24,7 @@ swSonido.addEventListener('change', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const audio = document.getElementById('myAudio');
+  const audio = document.getElementById('miAudio');
   const soundToggle = document.getElementById('swSonido');
 
 
@@ -55,14 +55,33 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
 document.addEventListener('DOMContentLoaded', function () {
 
   const cerrarBtn = document.getElementById('cerrarBtn');
 
   cerrarBtn.addEventListener('click', function () {
 
-    window.location.href = 'configuar2.0.html';
+    window.location.href = "configuar2.0.html";
+  });
+})
+
+document.addEventListener('DOMContentLoaded', function () {
+  const btnLenguaje = document.querySelector('.btn3');
+
+  btnLenguaje.addEventListener('click', function () {
+      alert('El lenguaje es español');
   });
 });
 
+
+function guardar() {
+
+  const nombre = document.getElementById('usuario').value;
+  const contra = document.getElementById('contraseña').value;
+
+
+  console.log('Nombre:', nombre);
+  console.log('Contraseña:', contra);
+}
 

@@ -2,8 +2,17 @@ html {
     font-family: 'Lexend', sans-serif;
 }
 
+body{
+    background-image: url(./img/fondomonkey.png);
+    background-repeat: no-repeat;
+    background-size: 130%  130%;
+    
+    
+    
+}
+
 .cuadro {
-    height: 400px;
+    height: 500px;
     width: 450px;
     border: 3px solid;
     border-radius: 15px;
@@ -196,7 +205,7 @@ input[type="checkbox"]:checked+.switch-label {
 .tuerca {
     max-width: 100%;
     position: relative;
-    top: -74.5%;
+    top: -60%;
     bottom: 30%;
     left: -40%;
     right: auto;
@@ -214,7 +223,7 @@ input[type="checkbox"]:checked+.switch-label {
 .music {
 
     position: relative;
-    top: -73%;
+    top: -58.5%;
     bottom: 20%;
     left: -22%;
     right: -17%;
@@ -234,7 +243,7 @@ input[type="checkbox"]:checked+.switch-label {
 .sound {
     max-width: 100%;
     position: relative;
-    top: -56%;
+    top: -45.5%;
     bottom: 30%;
     left: -22%;
     right: -17%;
@@ -254,7 +263,7 @@ input[type="checkbox"]:checked+.switch-label {
 .flag {
 
     position: relative;
-    top: -40%;
+    top: -32%;
     bottom: 30%;
     left: 27%;
     right: -22%;
@@ -267,6 +276,92 @@ input[type="checkbox"]:checked+.switch-label {
     width: 40px;
     top: 45%;
 
+}
+
+/* .input, label{
+    height: 25px;
+    width: 100px;
+    background-color: #94da74;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 1px;
+    border-color: black;
+    color: #5C3B66;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+position: absolute;
+    
+   
+ 
+ 
+}
+
+.input-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   top: 17%;
+   position: absolute;
+} */
+
+.forml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 66%;
+    position: absolute;
+    width: 400px;
+    left: 20px;
+    text-align: center;
+   color: #5C3B66;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+
+ 
+
+
+input{
+    padding: 4px 2px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #94da74;
+    margin-bottom: 15px;
+    outline: none;
+    
+}
+
+.label{
+    font-size: 15px;
+    background-color: #94da74;
+    top: -13px;
+   
+}
+.btn{
+  width: 100px;
+    border: 1px solid;
+    font-size: 16px;
+    background-color: #94da74;
+    border-radius: 15px;
+    transform: translate(-40%);
+}
+
+#borrar{
+    width: 90px;
+    border: 1px solid;
+    font-size: 14px;
+    transform: translate(90%, -95%);
 }
 
 .cuadro,

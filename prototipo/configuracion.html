@@ -20,8 +20,8 @@
       <div class="botones">
          <div class="btn1">MUSICA</div>
          <div class="boton-musica">
-            <input type="checkbox" id="toggle" class="offscreen" />
-            <label for="toggle" class="switch"></label>
+            <input type="checkbox" id="swMusica" class="offscreen" />
+            <label for="swMusica" class="switch"></label>
             <span id="message" class="message">OFF</span>
 
          </div>
@@ -49,8 +49,28 @@
       <div id="cerrarBtn">
          <img id="close" src="./img/cerrar.png" alt="cerrar">
       </div>
-      <audio id="myAudio" src="./sonido.mart.mp3" type="audio/mp3">
-         Tu navegador no soporta el elemento de audio.
+          <div class="forml" aling="center">
+            <form>
+            
+             <label for="usuario"> Nombre de Usuario</label>
+             <input type="text"  id="usuario">
+           
+             <label for="contraseña"> Contraseña</label>
+             <input type="password"  id="contraseña">
+             <button type="button" class="btn" onclick="guardar()">Guardar</button>
+             <input type="submit"  id="borrar"  value="Borrar">
+
+   
+             
+           
+             </form>
+           
+        </div>
+   
+      <audio id="miAudio" src="./sonido.mart.mp3" type="audio/mp3">
+     
+      </audio>
+      <audio id="mimusica" src="./music.mart.mp3" type="audio/mp3">
       </audio>
 
    </div>
@@ -58,7 +78,7 @@
 
 
    <script src="confi.js"></script>
-   
+
 
 </body>
 
